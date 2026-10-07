@@ -1,0 +1,1652 @@
+[
+ {
+  "id": "n3-001",
+  "level": "N3",
+  "pattern": "〜ようにする",
+  "meaning": "procurar fazer; fazer questão de"
+ },
+ {
+  "id": "n3-002",
+  "level": "N3",
+  "pattern": "〜ことにする",
+  "meaning": "decidir fazer"
+ },
+ {
+  "id": "n3-003",
+  "level": "N3",
+  "pattern": "〜ばかり",
+  "meaning": "só; nada além de"
+ },
+ {
+  "id": "n3-004",
+  "level": "N3",
+  "pattern": "〜ようになる",
+  "meaning": "passar a (conseguir/fazer)"
+ },
+ {
+  "id": "n3-005",
+  "level": "N3",
+  "pattern": "〜ことになる",
+  "meaning": "ficar decidido que; acabar sendo"
+ },
+ {
+  "id": "n3-006",
+  "level": "N3",
+  "pattern": "〜わけだ",
+  "meaning": "ou seja; é por isso que"
+ },
+ {
+  "id": "n3-007",
+  "level": "N3",
+  "pattern": "〜わけではない",
+  "meaning": "não é que; não necessariamente"
+ },
+ {
+  "id": "n3-008",
+  "level": "N3",
+  "pattern": "〜はずだ",
+  "meaning": "deve ser (expectativa lógica)"
+ },
+ {
+  "id": "n3-009",
+  "level": "N3",
+  "pattern": "〜はずがない",
+  "meaning": "não tem como; impossível que"
+ },
+ {
+  "id": "n3-010",
+  "level": "N3",
+  "pattern": "〜ように",
+  "meaning": "para que (objetivo); como"
+ },
+ {
+  "id": "n3-011",
+  "level": "N3",
+  "pattern": "〜ために",
+  "meaning": "para (objetivo); por causa de"
+ },
+ {
+  "id": "n3-012",
+  "level": "N3",
+  "pattern": "〜ところだ",
+  "meaning": "estar prestes a / no meio de / ter acabado de"
+ },
+ {
+  "id": "n3-013",
+  "level": "N3",
+  "pattern": "〜たばかり",
+  "meaning": "ter acabado de"
+ },
+ {
+  "id": "n3-014",
+  "level": "N3",
+  "pattern": "〜てしまう",
+  "meaning": "acabar fazendo; fazer por completo"
+ },
+ {
+  "id": "n3-015",
+  "level": "N3",
+  "pattern": "〜ておく",
+  "meaning": "deixar feito; fazer de antemão"
+ },
+ {
+  "id": "n3-016",
+  "level": "N3",
+  "pattern": "〜てみる",
+  "meaning": "experimentar fazer"
+ },
+ {
+  "id": "n3-017",
+  "level": "N3",
+  "pattern": "〜てくる",
+  "meaning": "vir fazendo; começar a"
+ },
+ {
+  "id": "n3-018",
+  "level": "N3",
+  "pattern": "〜ていく",
+  "meaning": "ir fazendo; continuar"
+ },
+ {
+  "id": "n3-019",
+  "level": "N3",
+  "pattern": "〜らしい",
+  "meaning": "parece que; típico de"
+ },
+ {
+  "id": "n3-020",
+  "level": "N3",
+  "pattern": "〜みたいだ",
+  "meaning": "parece; como"
+ },
+ {
+  "id": "n3-021",
+  "level": "N3",
+  "pattern": "〜っぽい",
+  "meaning": "meio; com cara de; tendência a"
+ },
+ {
+  "id": "n3-022",
+  "level": "N3",
+  "pattern": "〜によって",
+  "meaning": "por; dependendo de; por meio de"
+ },
+ {
+  "id": "n3-023",
+  "level": "N3",
+  "pattern": "〜にとって",
+  "meaning": "para (ponto de vista)"
+ },
+ {
+  "id": "n3-024",
+  "level": "N3",
+  "pattern": "〜について",
+  "meaning": "sobre; a respeito de"
+ },
+ {
+  "id": "n3-025",
+  "level": "N3",
+  "pattern": "〜に対して",
+  "meaning": "em relação a; em contraste com"
+ },
+ {
+  "id": "n3-026",
+  "level": "N3",
+  "pattern": "〜として",
+  "meaning": "como; na qualidade de"
+ },
+ {
+  "id": "n3-027",
+  "level": "N3",
+  "pattern": "〜たびに",
+  "meaning": "toda vez que"
+ },
+ {
+  "id": "n3-028",
+  "level": "N3",
+  "pattern": "〜うちに",
+  "meaning": "enquanto; antes que"
+ },
+ {
+  "id": "n3-029",
+  "level": "N3",
+  "pattern": "〜あいだに",
+  "meaning": "durante; no intervalo em que"
+ },
+ {
+  "id": "n3-030",
+  "level": "N3",
+  "pattern": "〜最中に",
+  "meaning": "bem no meio de"
+ },
+ {
+  "id": "n3-031",
+  "level": "N3",
+  "pattern": "〜とおりに",
+  "meaning": "do jeito que; conforme"
+ },
+ {
+  "id": "n3-032",
+  "level": "N3",
+  "pattern": "〜ついでに",
+  "meaning": "aproveitando que"
+ },
+ {
+  "id": "n3-033",
+  "level": "N3",
+  "pattern": "〜かわりに",
+  "meaning": "em vez de"
+ },
+ {
+  "id": "n3-034",
+  "level": "N3",
+  "pattern": "〜くせに",
+  "meaning": "apesar de (crítica)"
+ },
+ {
+  "id": "n3-035",
+  "level": "N3",
+  "pattern": "〜のに",
+  "meaning": "apesar de; embora"
+ },
+ {
+  "id": "n3-036",
+  "level": "N3",
+  "pattern": "〜ても",
+  "meaning": "mesmo que"
+ },
+ {
+  "id": "n3-037",
+  "level": "N3",
+  "pattern": "〜としても",
+  "meaning": "mesmo supondo que"
+ },
+ {
+  "id": "n3-038",
+  "level": "N3",
+  "pattern": "〜ば〜ほど",
+  "meaning": "quanto mais..., mais..."
+ },
+ {
+  "id": "n3-039",
+  "level": "N3",
+  "pattern": "〜ほど",
+  "meaning": "a ponto de; tanto quanto"
+ },
+ {
+  "id": "n3-040",
+  "level": "N3",
+  "pattern": "〜さえ",
+  "meaning": "até mesmo"
+ },
+ {
+  "id": "n3-041",
+  "level": "N3",
+  "pattern": "〜さえ〜ば",
+  "meaning": "basta que"
+ },
+ {
+  "id": "n3-042",
+  "level": "N3",
+  "pattern": "〜こそ",
+  "meaning": "justamente; é que"
+ },
+ {
+  "id": "n3-043",
+  "level": "N3",
+  "pattern": "〜しか〜ない",
+  "meaning": "só; apenas"
+ },
+ {
+  "id": "n3-044",
+  "level": "N3",
+  "pattern": "〜だけでなく",
+  "meaning": "não só"
+ },
+ {
+  "id": "n3-045",
+  "level": "N3",
+  "pattern": "〜ばかりでなく",
+  "meaning": "não apenas... mas também"
+ },
+ {
+  "id": "n3-046",
+  "level": "N3",
+  "pattern": "〜ことがある",
+  "meaning": "às vezes acontece de"
+ },
+ {
+  "id": "n3-047",
+  "level": "N3",
+  "pattern": "〜ことはない",
+  "meaning": "não há necessidade de"
+ },
+ {
+  "id": "n3-048",
+  "level": "N3",
+  "pattern": "〜ことだ",
+  "meaning": "o melhor é; deve-se"
+ },
+ {
+  "id": "n3-049",
+  "level": "N3",
+  "pattern": "〜ものだ",
+  "meaning": "é natural que; costumava"
+ },
+ {
+  "id": "n3-050",
+  "level": "N3",
+  "pattern": "〜ようとする",
+  "meaning": "tentar; estar prestes a"
+ },
+ {
+  "id": "n3-051",
+  "level": "N3",
+  "pattern": "〜（よ）うと思う",
+  "meaning": "pensar em fazer"
+ },
+ {
+  "id": "n3-052",
+  "level": "N3",
+  "pattern": "〜つもりだ",
+  "meaning": "ter a intenção de"
+ },
+ {
+  "id": "n3-053",
+  "level": "N3",
+  "pattern": "〜まま",
+  "meaning": "do jeito que está; sem mudar"
+ },
+ {
+  "id": "n3-054",
+  "level": "N3",
+  "pattern": "〜っぱなし",
+  "meaning": "deixar (algo) largado; sem parar"
+ },
+ {
+  "id": "n3-055",
+  "level": "N3",
+  "pattern": "〜ずに",
+  "meaning": "sem fazer"
+ },
+ {
+  "id": "n3-056",
+  "level": "N3",
+  "pattern": "〜ないで",
+  "meaning": "sem fazer; não faça"
+ },
+ {
+  "id": "n3-057",
+  "level": "N3",
+  "pattern": "〜させてください",
+  "meaning": "deixe-me fazer"
+ },
+ {
+  "id": "n3-058",
+  "level": "N3",
+  "pattern": "〜（さ）せられる",
+  "meaning": "ser obrigado a"
+ },
+ {
+  "id": "n3-059",
+  "level": "N3",
+  "pattern": "〜てほしい",
+  "meaning": "querer que (alguém) faça"
+ },
+ {
+  "id": "n3-060",
+  "level": "N3",
+  "pattern": "〜てもらいたい",
+  "meaning": "gostaria que me fizessem"
+ },
+ {
+  "id": "n3-061",
+  "level": "N3",
+  "pattern": "〜ようだ",
+  "meaning": "parece que (inferência)"
+ },
+ {
+  "id": "n3-062",
+  "level": "N3",
+  "pattern": "〜そうだ（伝聞）",
+  "meaning": "dizem que"
+ },
+ {
+  "id": "n3-063",
+  "level": "N3",
+  "pattern": "〜そうだ（様態）",
+  "meaning": "parece (pela aparência)"
+ },
+ {
+  "id": "n3-064",
+  "level": "N3",
+  "pattern": "〜一方だ",
+  "meaning": "só aumenta/piora"
+ },
+ {
+  "id": "n3-065",
+  "level": "N3",
+  "pattern": "〜に違いない",
+  "meaning": "sem dúvida; com certeza"
+ },
+ {
+  "id": "n3-066",
+  "level": "N3",
+  "pattern": "〜おかげで",
+  "meaning": "graças a"
+ },
+ {
+  "id": "n3-067",
+  "level": "N3",
+  "pattern": "〜せいで",
+  "meaning": "por culpa de"
+ },
+ {
+  "id": "n3-068",
+  "level": "N3",
+  "pattern": "〜ため（原因）",
+  "meaning": "por causa de (formal)"
+ },
+ {
+  "id": "n3-069",
+  "level": "N3",
+  "pattern": "〜からこそ",
+  "meaning": "justamente porque"
+ },
+ {
+  "id": "n3-070",
+  "level": "N3",
+  "pattern": "〜わりに",
+  "meaning": "para (algo), é surpreendentemente"
+ },
+ {
+  "id": "n3-071",
+  "level": "N3",
+  "pattern": "〜にしては",
+  "meaning": "para um(a)..., até que"
+ },
+ {
+  "id": "n3-072",
+  "level": "N3",
+  "pattern": "〜にしても",
+  "meaning": "mesmo que; ainda que"
+ },
+ {
+  "id": "n3-073",
+  "level": "N3",
+  "pattern": "〜とか",
+  "meaning": "dizem que; algo como"
+ },
+ {
+  "id": "n3-074",
+  "level": "N3",
+  "pattern": "〜なんて",
+  "meaning": "coisas como; que absurdo"
+ },
+ {
+  "id": "n3-075",
+  "level": "N3",
+  "pattern": "〜って",
+  "meaning": "(citação informal) dizem que"
+ },
+ {
+  "id": "n3-076",
+  "level": "N3",
+  "pattern": "〜ばよかった",
+  "meaning": "devia ter feito"
+ },
+ {
+  "id": "n3-077",
+  "level": "N3",
+  "pattern": "〜てからでないと",
+  "meaning": "só depois de; sem antes"
+ },
+ {
+  "id": "n3-078",
+  "level": "N3",
+  "pattern": "〜てはじめて",
+  "meaning": "só depois de... é que"
+ },
+ {
+  "id": "n3-079",
+  "level": "N3",
+  "pattern": "〜とは限らない",
+  "meaning": "nem sempre"
+ },
+ {
+  "id": "n3-080",
+  "level": "N3",
+  "pattern": "〜ないことはない",
+  "meaning": "não é que não"
+ },
+ {
+  "id": "n3-081",
+  "level": "N3",
+  "pattern": "〜に比べて",
+  "meaning": "comparado a"
+ },
+ {
+  "id": "n3-082",
+  "level": "N3",
+  "pattern": "〜にかわって",
+  "meaning": "no lugar de"
+ },
+ {
+  "id": "n3-083",
+  "level": "N3",
+  "pattern": "〜に関して",
+  "meaning": "em relação a (formal)"
+ },
+ {
+  "id": "n3-084",
+  "level": "N3",
+  "pattern": "〜をはじめ",
+  "meaning": "a começar por"
+ },
+ {
+  "id": "n3-085",
+  "level": "N3",
+  "pattern": "〜を中心に",
+  "meaning": "centrado em"
+ },
+ {
+  "id": "n3-086",
+  "level": "N3",
+  "pattern": "〜による",
+  "meaning": "causado por; segundo"
+ },
+ {
+  "id": "n3-087",
+  "level": "N3",
+  "pattern": "〜てたまらない",
+  "meaning": "insuportavelmente; muito"
+ },
+ {
+  "id": "n3-088",
+  "level": "N3",
+  "pattern": "〜てしょうがない",
+  "meaning": "não consigo evitar; muito"
+ },
+ {
+  "id": "n3-089",
+  "level": "N3",
+  "pattern": "〜ことに（感情）",
+  "meaning": "para minha (surpresa etc.)"
+ },
+ {
+  "id": "n3-090",
+  "level": "N3",
+  "pattern": "〜までに",
+  "meaning": "até (prazo)"
+ },
+ {
+  "id": "n3-091",
+  "level": "N3",
+  "pattern": "〜ところに",
+  "meaning": "bem na hora que"
+ },
+ {
+  "id": "n3-092",
+  "level": "N3",
+  "pattern": "〜はもちろん",
+  "meaning": "sem falar de; obviamente"
+ },
+ {
+  "id": "n3-093",
+  "level": "N3",
+  "pattern": "〜も〜ば〜も",
+  "meaning": "tanto... quanto..."
+ },
+ {
+  "id": "n3-094",
+  "level": "N3",
+  "pattern": "〜にする",
+  "meaning": "decidir por (escolha)"
+ },
+ {
+  "id": "n3-095",
+  "level": "N3",
+  "pattern": "〜てばかりいる",
+  "meaning": "não fazer outra coisa senão"
+ },
+ {
+  "id": "n2-001",
+  "level": "N2",
+  "pattern": "〜にもかかわらず",
+  "meaning": "apesar de; mesmo que"
+ },
+ {
+  "id": "n2-002",
+  "level": "N2",
+  "pattern": "〜をきっかけに",
+  "meaning": "a partir de (um acontecimento)"
+ },
+ {
+  "id": "n2-003",
+  "level": "N2",
+  "pattern": "〜わけにはいかない",
+  "meaning": "não poder (por razão moral/social)"
+ },
+ {
+  "id": "n2-004",
+  "level": "N2",
+  "pattern": "〜ざるを得ない",
+  "meaning": "não ter outra opção senão"
+ },
+ {
+  "id": "n2-005",
+  "level": "N2",
+  "pattern": "〜ずにはいられない",
+  "meaning": "não conseguir deixar de"
+ },
+ {
+  "id": "n2-006",
+  "level": "N2",
+  "pattern": "〜ないではいられない",
+  "meaning": "não conseguir evitar fazer"
+ },
+ {
+  "id": "n2-007",
+  "level": "N2",
+  "pattern": "〜っこない",
+  "meaning": "de jeito nenhum"
+ },
+ {
+  "id": "n2-008",
+  "level": "N2",
+  "pattern": "〜かねる",
+  "meaning": "ser difícil de; não poder"
+ },
+ {
+  "id": "n2-009",
+  "level": "N2",
+  "pattern": "〜かねない",
+  "meaning": "pode muito bem (algo ruim)"
+ },
+ {
+  "id": "n2-010",
+  "level": "N2",
+  "pattern": "〜がたい",
+  "meaning": "difícil de (emocionalmente)"
+ },
+ {
+  "id": "n2-011",
+  "level": "N2",
+  "pattern": "〜がちだ",
+  "meaning": "tender a (algo ruim)"
+ },
+ {
+  "id": "n2-012",
+  "level": "N2",
+  "pattern": "〜気味",
+  "meaning": "com um quê de; meio"
+ },
+ {
+  "id": "n2-013",
+  "level": "N2",
+  "pattern": "〜向けだ",
+  "meaning": "destinado a (público)"
+ },
+ {
+  "id": "n2-014",
+  "level": "N2",
+  "pattern": "〜向きだ",
+  "meaning": "adequado para"
+ },
+ {
+  "id": "n2-015",
+  "level": "N2",
+  "pattern": "〜次第",
+  "meaning": "assim que"
+ },
+ {
+  "id": "n2-016",
+  "level": "N2",
+  "pattern": "〜次第だ",
+  "meaning": "depende de"
+ },
+ {
+  "id": "n2-017",
+  "level": "N2",
+  "pattern": "〜次第で",
+  "meaning": "dependendo de"
+ },
+ {
+  "id": "n2-018",
+  "level": "N2",
+  "pattern": "〜ものの",
+  "meaning": "embora; ainda que"
+ },
+ {
+  "id": "n2-019",
+  "level": "N2",
+  "pattern": "〜ものなら",
+  "meaning": "se fosse possível"
+ },
+ {
+  "id": "n2-020",
+  "level": "N2",
+  "pattern": "〜ものか",
+  "meaning": "de jeito nenhum (que eu vou)"
+ },
+ {
+  "id": "n2-021",
+  "level": "N2",
+  "pattern": "〜ものがある",
+  "meaning": "há algo de (sentimento)"
+ },
+ {
+  "id": "n2-022",
+  "level": "N2",
+  "pattern": "〜ものだから",
+  "meaning": "é que (desculpa)"
+ },
+ {
+  "id": "n2-023",
+  "level": "N2",
+  "pattern": "〜もの（理由）",
+  "meaning": "porque (fala, explicação)"
+ },
+ {
+  "id": "n2-024",
+  "level": "N2",
+  "pattern": "〜ことから",
+  "meaning": "pelo fato de"
+ },
+ {
+  "id": "n2-025",
+  "level": "N2",
+  "pattern": "〜ことだから",
+  "meaning": "sendo (alguém) como é"
+ },
+ {
+  "id": "n2-026",
+  "level": "N2",
+  "pattern": "〜ことなく",
+  "meaning": "sem (fazer)"
+ },
+ {
+  "id": "n2-027",
+  "level": "N2",
+  "pattern": "〜ことには",
+  "meaning": "(emoção) é que"
+ },
+ {
+  "id": "n2-028",
+  "level": "N2",
+  "pattern": "〜ことになっている",
+  "meaning": "está estabelecido que"
+ },
+ {
+  "id": "n2-029",
+  "level": "N2",
+  "pattern": "〜ことにしている",
+  "meaning": "ter como regra"
+ },
+ {
+  "id": "n2-030",
+  "level": "N2",
+  "pattern": "〜ないことには",
+  "meaning": "se não... não dá para"
+ },
+ {
+  "id": "n2-031",
+  "level": "N2",
+  "pattern": "〜上で",
+  "meaning": "após; ao (fazer)"
+ },
+ {
+  "id": "n2-032",
+  "level": "N2",
+  "pattern": "〜上に",
+  "meaning": "além de"
+ },
+ {
+  "id": "n2-033",
+  "level": "N2",
+  "pattern": "〜上は",
+  "meaning": "já que"
+ },
+ {
+  "id": "n2-034",
+  "level": "N2",
+  "pattern": "〜以上（は）",
+  "meaning": "uma vez que; já que"
+ },
+ {
+  "id": "n2-035",
+  "level": "N2",
+  "pattern": "〜からには",
+  "meaning": "já que; uma vez que"
+ },
+ {
+  "id": "n2-036",
+  "level": "N2",
+  "pattern": "〜からといって",
+  "meaning": "só porque... não significa"
+ },
+ {
+  "id": "n2-037",
+  "level": "N2",
+  "pattern": "〜からして",
+  "meaning": "a começar por; só por"
+ },
+ {
+  "id": "n2-038",
+  "level": "N2",
+  "pattern": "〜からすると",
+  "meaning": "do ponto de vista de; a julgar por"
+ },
+ {
+  "id": "n2-039",
+  "level": "N2",
+  "pattern": "〜から見ると",
+  "meaning": "visto de"
+ },
+ {
+  "id": "n2-040",
+  "level": "N2",
+  "pattern": "〜に限って",
+  "meaning": "justamente quando/em"
+ },
+ {
+  "id": "n2-041",
+  "level": "N2",
+  "pattern": "〜に限らず",
+  "meaning": "não só"
+ },
+ {
+  "id": "n2-042",
+  "level": "N2",
+  "pattern": "〜に限り",
+  "meaning": "apenas; limitado a"
+ },
+ {
+  "id": "n2-043",
+  "level": "N2",
+  "pattern": "〜限り",
+  "meaning": "enquanto; tanto quanto"
+ },
+ {
+  "id": "n2-044",
+  "level": "N2",
+  "pattern": "〜かぎりでは",
+  "meaning": "até onde"
+ },
+ {
+  "id": "n2-045",
+  "level": "N2",
+  "pattern": "〜にかけては",
+  "meaning": "no que diz respeito a (habilidade)"
+ },
+ {
+  "id": "n2-046",
+  "level": "N2",
+  "pattern": "〜にかけて",
+  "meaning": "de... até (período/área)"
+ },
+ {
+  "id": "n2-047",
+  "level": "N2",
+  "pattern": "〜にわたって",
+  "meaning": "ao longo de; abrangendo"
+ },
+ {
+  "id": "n2-048",
+  "level": "N2",
+  "pattern": "〜を通じて",
+  "meaning": "por meio de; durante todo"
+ },
+ {
+  "id": "n2-049",
+  "level": "N2",
+  "pattern": "〜を通して",
+  "meaning": "através de"
+ },
+ {
+  "id": "n2-050",
+  "level": "N2",
+  "pattern": "〜をめぐって",
+  "meaning": "em torno de (disputa)"
+ },
+ {
+  "id": "n2-051",
+  "level": "N2",
+  "pattern": "〜に沿って",
+  "meaning": "ao longo de; de acordo com"
+ },
+ {
+  "id": "n2-052",
+  "level": "N2",
+  "pattern": "〜に基づいて",
+  "meaning": "com base em"
+ },
+ {
+  "id": "n2-053",
+  "level": "N2",
+  "pattern": "〜をもとに",
+  "meaning": "com base em (material)"
+ },
+ {
+  "id": "n2-054",
+  "level": "N2",
+  "pattern": "〜にこたえて",
+  "meaning": "em resposta a"
+ },
+ {
+  "id": "n2-055",
+  "level": "N2",
+  "pattern": "〜に応じて",
+  "meaning": "conforme; de acordo com"
+ },
+ {
+  "id": "n2-056",
+  "level": "N2",
+  "pattern": "〜に伴って",
+  "meaning": "acompanhando; junto com"
+ },
+ {
+  "id": "n2-057",
+  "level": "N2",
+  "pattern": "〜につれて",
+  "meaning": "à medida que"
+ },
+ {
+  "id": "n2-058",
+  "level": "N2",
+  "pattern": "〜にしたがって",
+  "meaning": "conforme; à medida que"
+ },
+ {
+  "id": "n2-059",
+  "level": "N2",
+  "pattern": "〜とともに",
+  "meaning": "junto com; ao mesmo tempo que"
+ },
+ {
+  "id": "n2-060",
+  "level": "N2",
+  "pattern": "〜に加えて",
+  "meaning": "além de"
+ },
+ {
+  "id": "n2-061",
+  "level": "N2",
+  "pattern": "〜はもとより",
+  "meaning": "sem falar de"
+ },
+ {
+  "id": "n2-062",
+  "level": "N2",
+  "pattern": "〜のみならず",
+  "meaning": "não apenas"
+ },
+ {
+  "id": "n2-063",
+  "level": "N2",
+  "pattern": "〜ばかりか",
+  "meaning": "não só... como também"
+ },
+ {
+  "id": "n2-064",
+  "level": "N2",
+  "pattern": "〜どころか",
+  "meaning": "longe de; muito pelo contrário"
+ },
+ {
+  "id": "n2-065",
+  "level": "N2",
+  "pattern": "〜どころではない",
+  "meaning": "não é hora para"
+ },
+ {
+  "id": "n2-066",
+  "level": "N2",
+  "pattern": "〜というものではない",
+  "meaning": "não é que (necessariamente)"
+ },
+ {
+  "id": "n2-067",
+  "level": "N2",
+  "pattern": "〜というわけではない",
+  "meaning": "não quer dizer que"
+ },
+ {
+  "id": "n2-068",
+  "level": "N2",
+  "pattern": "〜わけがない",
+  "meaning": "não tem como"
+ },
+ {
+  "id": "n2-069",
+  "level": "N2",
+  "pattern": "〜というより",
+  "meaning": "mais do que; em vez de"
+ },
+ {
+  "id": "n2-070",
+  "level": "N2",
+  "pattern": "〜というと",
+  "meaning": "falando de; quando se diz"
+ },
+ {
+  "id": "n2-071",
+  "level": "N2",
+  "pattern": "〜といえば",
+  "meaning": "por falar em"
+ },
+ {
+  "id": "n2-072",
+  "level": "N2",
+  "pattern": "〜といったら",
+  "meaning": "quando se trata de (ênfase)"
+ },
+ {
+  "id": "n2-073",
+  "level": "N2",
+  "pattern": "〜というのは",
+  "meaning": "o que significa... é"
+ },
+ {
+  "id": "n2-074",
+  "level": "N2",
+  "pattern": "〜ということだ",
+  "meaning": "significa que; dizem que"
+ },
+ {
+  "id": "n2-075",
+  "level": "N2",
+  "pattern": "〜とのことだ",
+  "meaning": "dizem que (recado)"
+ },
+ {
+  "id": "n2-076",
+  "level": "N2",
+  "pattern": "〜に過ぎない",
+  "meaning": "não passa de"
+ },
+ {
+  "id": "n2-077",
+  "level": "N2",
+  "pattern": "〜にほかならない",
+  "meaning": "não é outra coisa senão"
+ },
+ {
+  "id": "n2-078",
+  "level": "N2",
+  "pattern": "〜に決まっている",
+  "meaning": "com certeza; é óbvio que"
+ },
+ {
+  "id": "n2-079",
+  "level": "N2",
+  "pattern": "〜に相違ない",
+  "meaning": "sem dúvida (formal)"
+ },
+ {
+  "id": "n2-080",
+  "level": "N2",
+  "pattern": "〜っけ",
+  "meaning": "era...? (lembrar)"
+ },
+ {
+  "id": "n2-081",
+  "level": "N2",
+  "pattern": "〜つつ",
+  "meaning": "enquanto; embora"
+ },
+ {
+  "id": "n2-082",
+  "level": "N2",
+  "pattern": "〜つつある",
+  "meaning": "estar em processo de"
+ },
+ {
+  "id": "n2-083",
+  "level": "N2",
+  "pattern": "〜ながらも",
+  "meaning": "embora"
+ },
+ {
+  "id": "n2-084",
+  "level": "N2",
+  "pattern": "〜にしろ〜にしろ",
+  "meaning": "seja... seja..."
+ },
+ {
+  "id": "n2-085",
+  "level": "N2",
+  "pattern": "〜にせよ",
+  "meaning": "seja como for; mesmo que"
+ },
+ {
+  "id": "n2-086",
+  "level": "N2",
+  "pattern": "〜であれ",
+  "meaning": "seja o que for"
+ },
+ {
+  "id": "n2-087",
+  "level": "N2",
+  "pattern": "〜としたら",
+  "meaning": "se supusermos que"
+ },
+ {
+  "id": "n2-088",
+  "level": "N2",
+  "pattern": "〜とすれば",
+  "meaning": "se for o caso de"
+ },
+ {
+  "id": "n2-089",
+  "level": "N2",
+  "pattern": "〜となると",
+  "meaning": "quando se trata de; nesse caso"
+ },
+ {
+  "id": "n2-090",
+  "level": "N2",
+  "pattern": "〜ないかぎり",
+  "meaning": "a menos que"
+ },
+ {
+  "id": "n2-091",
+  "level": "N2",
+  "pattern": "〜てしかたがない",
+  "meaning": "não ter jeito; muito"
+ },
+ {
+  "id": "n2-092",
+  "level": "N2",
+  "pattern": "〜てならない",
+  "meaning": "não consigo deixar de sentir"
+ },
+ {
+  "id": "n2-093",
+  "level": "N2",
+  "pattern": "〜てからというもの",
+  "meaning": "desde que (mudança)"
+ },
+ {
+  "id": "n2-094",
+  "level": "N2",
+  "pattern": "〜て以来",
+  "meaning": "desde que"
+ },
+ {
+  "id": "n2-095",
+  "level": "N2",
+  "pattern": "〜たとたん",
+  "meaning": "no instante em que"
+ },
+ {
+  "id": "n2-096",
+  "level": "N2",
+  "pattern": "〜か〜ないかのうちに",
+  "meaning": "mal... e já"
+ },
+ {
+  "id": "n2-097",
+  "level": "N2",
+  "pattern": "〜際（に）",
+  "meaning": "na ocasião de"
+ },
+ {
+  "id": "n2-098",
+  "level": "N2",
+  "pattern": "〜に際して",
+  "meaning": "por ocasião de"
+ },
+ {
+  "id": "n2-099",
+  "level": "N2",
+  "pattern": "〜にあたって",
+  "meaning": "ao (iniciar algo importante)"
+ },
+ {
+  "id": "n2-100",
+  "level": "N2",
+  "pattern": "〜に先立って",
+  "meaning": "antes de; precedendo"
+ },
+ {
+  "id": "n2-101",
+  "level": "N2",
+  "pattern": "〜末に",
+  "meaning": "após muito; no fim de"
+ },
+ {
+  "id": "n2-102",
+  "level": "N2",
+  "pattern": "〜あげく",
+  "meaning": "depois de tanto (resultado ruim)"
+ },
+ {
+  "id": "n2-103",
+  "level": "N2",
+  "pattern": "〜た結果",
+  "meaning": "como resultado de"
+ },
+ {
+  "id": "n2-104",
+  "level": "N2",
+  "pattern": "〜一方で",
+  "meaning": "por outro lado"
+ },
+ {
+  "id": "n2-105",
+  "level": "N2",
+  "pattern": "〜反面",
+  "meaning": "por outro lado (contraste)"
+ },
+ {
+  "id": "n2-106",
+  "level": "N2",
+  "pattern": "〜に反して",
+  "meaning": "contrário a"
+ },
+ {
+  "id": "n2-107",
+  "level": "N2",
+  "pattern": "〜にかかわらず",
+  "meaning": "independentemente de"
+ },
+ {
+  "id": "n2-108",
+  "level": "N2",
+  "pattern": "〜を問わず",
+  "meaning": "sem distinção de"
+ },
+ {
+  "id": "n2-109",
+  "level": "N2",
+  "pattern": "〜はともかく",
+  "meaning": "deixando de lado"
+ },
+ {
+  "id": "n2-110",
+  "level": "N2",
+  "pattern": "〜はさておき",
+  "meaning": "à parte; deixando de lado"
+ },
+ {
+  "id": "n2-111",
+  "level": "N2",
+  "pattern": "〜を抜きにして",
+  "meaning": "sem; deixando de fora"
+ },
+ {
+  "id": "n2-112",
+  "level": "N2",
+  "pattern": "〜抜きで",
+  "meaning": "sem (algo)"
+ },
+ {
+  "id": "n2-113",
+  "level": "N2",
+  "pattern": "〜をこめて",
+  "meaning": "com (sentimento)"
+ },
+ {
+  "id": "n2-114",
+  "level": "N2",
+  "pattern": "〜を契機に",
+  "meaning": "aproveitando a oportunidade de"
+ },
+ {
+  "id": "n2-115",
+  "level": "N2",
+  "pattern": "〜ようがない",
+  "meaning": "não há como"
+ },
+ {
+  "id": "n2-116",
+  "level": "N2",
+  "pattern": "〜ようではないか",
+  "meaning": "vamos (convocação)"
+ },
+ {
+  "id": "n2-117",
+  "level": "N2",
+  "pattern": "〜ことか",
+  "meaning": "quão...! (exclamação)"
+ },
+ {
+  "id": "n2-118",
+  "level": "N2",
+  "pattern": "〜ではないか",
+  "meaning": "não é que...?; vamos"
+ },
+ {
+  "id": "n2-119",
+  "level": "N2",
+  "pattern": "〜まい",
+  "meaning": "não vou; provavelmente não"
+ },
+ {
+  "id": "n2-120",
+  "level": "N2",
+  "pattern": "〜おそれがある",
+  "meaning": "há risco de"
+ },
+ {
+  "id": "n2-121",
+  "level": "N2",
+  "pattern": "〜だらけ",
+  "meaning": "cheio de (algo ruim)"
+ },
+ {
+  "id": "n2-122",
+  "level": "N2",
+  "pattern": "〜かのようだ",
+  "meaning": "como se"
+ },
+ {
+  "id": "n2-123",
+  "level": "N2",
+  "pattern": "〜かと思うと",
+  "meaning": "mal... e logo"
+ },
+ {
+  "id": "n2-124",
+  "level": "N2",
+  "pattern": "〜かと思ったら",
+  "meaning": "achei que... mas"
+ },
+ {
+  "id": "n2-125",
+  "level": "N2",
+  "pattern": "〜たところ",
+  "meaning": "quando fiz... (resultado)"
+ },
+ {
+  "id": "n2-126",
+  "level": "N2",
+  "pattern": "〜たところで",
+  "meaning": "mesmo que (não adianta)"
+ },
+ {
+  "id": "n2-127",
+  "level": "N2",
+  "pattern": "〜ところだった",
+  "meaning": "quase aconteceu"
+ },
+ {
+  "id": "n2-128",
+  "level": "N2",
+  "pattern": "〜もかまわず",
+  "meaning": "sem se importar com"
+ },
+ {
+  "id": "n2-129",
+  "level": "N2",
+  "pattern": "〜も同然",
+  "meaning": "praticamente igual a"
+ },
+ {
+  "id": "n2-130",
+  "level": "N2",
+  "pattern": "〜ずに済む",
+  "meaning": "conseguir evitar ter de"
+ },
+ {
+  "id": "n2-131",
+  "level": "N2",
+  "pattern": "〜ずじまい",
+  "meaning": "acabar sem fazer"
+ },
+ {
+  "id": "n2-132",
+  "level": "N2",
+  "pattern": "〜て当然",
+  "meaning": "é natural que"
+ },
+ {
+  "id": "n2-133",
+  "level": "N2",
+  "pattern": "〜べきだ",
+  "meaning": "deve-se"
+ },
+ {
+  "id": "n2-134",
+  "level": "N2",
+  "pattern": "〜べきではない",
+  "meaning": "não se deve"
+ },
+ {
+  "id": "n2-135",
+  "level": "N2",
+  "pattern": "〜次第です",
+  "meaning": "é por isso que (formal)"
+ },
+ {
+  "id": "n2-136",
+  "level": "N2",
+  "pattern": "〜なりに",
+  "meaning": "à sua maneira"
+ },
+ {
+  "id": "n2-137",
+  "level": "N2",
+  "pattern": "〜げ",
+  "meaning": "aparentemente; com ar de"
+ },
+ {
+  "id": "n2-138",
+  "level": "N2",
+  "pattern": "〜ぶり",
+  "meaning": "depois de (tempo); jeito de"
+ },
+ {
+  "id": "n2-139",
+  "level": "N2",
+  "pattern": "〜やら〜やら",
+  "meaning": "entre... e..."
+ },
+ {
+  "id": "n2-140",
+  "level": "N2",
+  "pattern": "〜だの〜だの",
+  "meaning": "isso e aquilo (queixa)"
+ },
+ {
+  "id": "n2-141",
+  "level": "N2",
+  "pattern": "〜というか〜というか",
+  "meaning": "seja... seja... (difícil dizer)"
+ },
+ {
+  "id": "n2-142",
+  "level": "N2",
+  "pattern": "〜ものではない",
+  "meaning": "não se deve"
+ },
+ {
+  "id": "n2-143",
+  "level": "N2",
+  "pattern": "〜において",
+  "meaning": "em (lugar/situação, formal)"
+ },
+ {
+  "id": "n2-144",
+  "level": "N2",
+  "pattern": "〜における",
+  "meaning": "em (modificando substantivo)"
+ },
+ {
+  "id": "n2-145",
+  "level": "N2",
+  "pattern": "〜に対する",
+  "meaning": "em relação a (modificando)"
+ },
+ {
+  "id": "n2-146",
+  "level": "N2",
+  "pattern": "〜としては",
+  "meaning": "como; para (alguém)"
+ },
+ {
+  "id": "n2-147",
+  "level": "N2",
+  "pattern": "〜だけあって",
+  "meaning": "como era de esperar de"
+ },
+ {
+  "id": "n2-148",
+  "level": "N2",
+  "pattern": "〜だけに",
+  "meaning": "justamente por ser"
+ },
+ {
+  "id": "n2-149",
+  "level": "N2",
+  "pattern": "〜だけのことはある",
+  "meaning": "não é à toa que"
+ },
+ {
+  "id": "n2-150",
+  "level": "N2",
+  "pattern": "〜ほど〜はない",
+  "meaning": "não há nada tão... quanto"
+ },
+ {
+  "id": "n2-151",
+  "level": "N2",
+  "pattern": "〜くらいなら",
+  "meaning": "se for para..., melhor"
+ },
+ {
+  "id": "n2-152",
+  "level": "N2",
+  "pattern": "〜すら",
+  "meaning": "até mesmo"
+ },
+ {
+  "id": "n2-153",
+  "level": "N2",
+  "pattern": "〜でさえ",
+  "meaning": "até mesmo (ênfase)"
+ },
+ {
+  "id": "n2-154",
+  "level": "N2",
+  "pattern": "〜までもない",
+  "meaning": "nem é preciso"
+ },
+ {
+  "id": "n2-155",
+  "level": "N2",
+  "pattern": "〜までして",
+  "meaning": "chegando ao ponto de"
+ },
+ {
+  "id": "n2-156",
+  "level": "N2",
+  "pattern": "〜得る",
+  "meaning": "poder; ser possível"
+ },
+ {
+  "id": "n2-157",
+  "level": "N2",
+  "pattern": "〜ようでは",
+  "meaning": "se continuar assim"
+ },
+ {
+  "id": "n2-158",
+  "level": "N2",
+  "pattern": "〜てでも",
+  "meaning": "nem que seja preciso"
+ },
+ {
+  "id": "n2-159",
+  "level": "N2",
+  "pattern": "〜ないわけにはいかない",
+  "meaning": "não poder deixar de"
+ },
+ {
+  "id": "n2-160",
+  "level": "N2",
+  "pattern": "〜に越したことはない",
+  "meaning": "o ideal é; nada melhor que"
+ },
+ {
+  "id": "n2-161",
+  "level": "N2",
+  "pattern": "〜ばかりだ（悪化）",
+  "meaning": "só vai piorando"
+ },
+ {
+  "id": "n2-162",
+  "level": "N2",
+  "pattern": "〜つつも",
+  "meaning": "embora; apesar de"
+ },
+ {
+  "id": "n2-163",
+  "level": "N2",
+  "pattern": "〜とはいえ",
+  "meaning": "ainda que; dito isso"
+ },
+ {
+  "id": "n2-164",
+  "level": "N2",
+  "pattern": "〜とはいうものの",
+  "meaning": "apesar de dizer que"
+ },
+ {
+  "id": "n2-165",
+  "level": "N2",
+  "pattern": "〜といっても",
+  "meaning": "embora se diga"
+ },
+ {
+  "id": "n2-166",
+  "level": "N2",
+  "pattern": "〜のもとで",
+  "meaning": "sob (orientação de)"
+ },
+ {
+  "id": "n2-167",
+  "level": "N2",
+  "pattern": "〜を中心として",
+  "meaning": "tendo como centro"
+ },
+ {
+  "id": "n2-168",
+  "level": "N2",
+  "pattern": "〜を踏まえて",
+  "meaning": "levando em conta"
+ },
+ {
+  "id": "n2-169",
+  "level": "N2",
+  "pattern": "〜をはじめとする",
+  "meaning": "a começar por (modificando)"
+ },
+ {
+  "id": "n2-170",
+  "level": "N2",
+  "pattern": "〜に向けて",
+  "meaning": "rumo a; visando"
+ },
+ {
+  "id": "n2-171",
+  "level": "N2",
+  "pattern": "〜にしたら",
+  "meaning": "do ponto de vista de"
+ },
+ {
+  "id": "n2-172",
+  "level": "N2",
+  "pattern": "〜にとっては",
+  "meaning": "para (alguém, ênfase)"
+ },
+ {
+  "id": "n2-173",
+  "level": "N2",
+  "pattern": "〜てみせる",
+  "meaning": "vou mostrar que consigo"
+ },
+ {
+  "id": "n2-174",
+  "level": "N2",
+  "pattern": "〜わりには",
+  "meaning": "apesar de (expectativa)"
+ },
+ {
+  "id": "n2-175",
+  "level": "N2",
+  "pattern": "〜からなる",
+  "meaning": "composto de"
+ },
+ {
+  "id": "n2-176",
+  "level": "N2",
+  "pattern": "〜をもって",
+  "meaning": "com; por meio de (formal)"
+ },
+ {
+  "id": "n2-177",
+  "level": "N2",
+  "pattern": "〜とみえる",
+  "meaning": "parece que (aparência)"
+ },
+ {
+  "id": "n2-178",
+  "level": "N2",
+  "pattern": "〜ものとする",
+  "meaning": "considera-se que"
+ },
+ {
+  "id": "n2-179",
+  "level": "N2",
+  "pattern": "〜かいがある",
+  "meaning": "vale a pena"
+ },
+ {
+  "id": "n2-180",
+  "level": "N2",
+  "pattern": "〜かわりに（交換）",
+  "meaning": "em troca de"
+ }
+]
