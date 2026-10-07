@@ -44,7 +44,7 @@ export function buildContinuePlan(p: PlanInput): DailyPlan {
     reviews: p.dueWordItemIds.slice(0, MIN_REVIEW_CAP),
     triage: triaging ? p.untriagedN3Ids.slice(0, CONTINUE_TRIAGE) : [],
     newWords: triaging ? [] : p.unintroducedN2Ids.slice(0, CONTINUE_NEW_WORDS),
-    grammar: p.dueGrammarIds.slice(0, MIN_GRAMMAR),
+    grammar: [...p.dueGrammarIds, ...p.unintroducedGrammarIds].slice(0, MIN_GRAMMAR),
     reading: true,
   };
 }

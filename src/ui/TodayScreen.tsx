@@ -18,11 +18,18 @@ export function TodayScreen({ ctx, settings, onStart, onNav }: Props) {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    void (async () => {
+    const load = async () => {
       setPlan(await getTodayPlan(ctx));
       setStreak(await getStreak(ctx));
       setDone(await isMinimumDoneToday(ctx));
-    })();
+    };
+    void load();
+    // O iOS mantém o app suspenso: ao voltar (talvez num novo dia), recarrega o estado.
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') void load();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
   }, [ctx]);
 
   if (!plan) return <div className="screen center">読み込み中…</div>;

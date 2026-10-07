@@ -4,14 +4,16 @@ import { markMinimumDone, type Ctx } from '../session/service';
 interface Props {
   ctx: Ctx;
   mode: 'minimum' | 'continue';
+  /** Dia (local) em que a sessão começou — é ele que conta para a sequência. */
+  date: string;
   onExit: () => void;
   onContinue: () => void;
 }
 
-export function SessionDone({ ctx, mode, onExit, onContinue }: Props) {
+export function SessionDone({ ctx, mode, date, onExit, onContinue }: Props) {
   useEffect(() => {
-    if (mode === 'minimum') void markMinimumDone(ctx);
-  }, [ctx, mode]);
+    if (mode === 'minimum') void markMinimumDone(ctx, date);
+  }, [ctx, mode, date]);
 
   return (
     <div className="screen center">

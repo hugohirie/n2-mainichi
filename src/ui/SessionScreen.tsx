@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AI_ERROR_MESSAGES } from '../ai/errors';
 import { planToSteps, planVocabIds, type Step } from '../session/steps';
-import { ensureWordDetails, getContinuePlan, getTodayPlan, type Ctx } from '../session/service';
+import { ensureWordDetails, getContinuePlan, getTodayPlan, resolveMode, sessionDate, type Ctx } from '../session/service';
 import { WordCard } from './WordCard';
 import { TriageCard } from './TriageCard';
 import { GrammarExercise } from './GrammarExercise';
@@ -15,22 +15,26 @@ export interface SessionProps {
   onContinue: () => void;
 }
 
-export function SessionScreen({ ctx, mode, onExit, onContinue }: SessionProps) {
+export function SessionScreen({ ctx, mode: requestedMode, onExit, onContinue }: SessionProps) {
+  const [date] = useState(() => sessionDate(ctx));
+  const [mode, setMode] = useState(requestedMode);
   const [steps, setSteps] = useState<Step[] | null>(null);
   const [index, setIndex] = useState(0);
   const [warning, setWarning] = useState<string | null>(null);
 
   useEffect(() => {
     void (async () => {
-      const plan = mode === 'minimum' ? await getTodayPlan(ctx) : await getContinuePlan(ctx);
+      const resolved = await resolveMode(ctx, requestedMode);
+      setMode(resolved);
+      const plan = resolved === 'minimum' ? await getTodayPlan(ctx) : await getContinuePlan(ctx);
       const err = await ensureWordDetails(ctx, planVocabIds(plan));
       if (err) setWarning(AI_ERROR_MESSAGES[err]);
       setSteps(planToSteps(plan));
     })();
-  }, [ctx, mode]);
+  }, [ctx, requestedMode]);
 
   if (!steps) return <div className="screen center">Preparando a sessão…</div>;
-  if (index >= steps.length) return <SessionDone ctx={ctx} mode={mode} onExit={onExit} onContinue={onContinue} />;
+  if (index >= steps.length) return <SessionDone ctx={ctx} mode={mode} date={date} onExit={onExit} onContinue={onContinue} />;
 
   const next = (extra: Step[] = []) => {
     if (extra.length > 0) setSteps((s) => [...s!, ...extra]);

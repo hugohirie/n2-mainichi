@@ -1,3 +1,4 @@
+import Anthropic from '@anthropic-ai/sdk';
 import type { GrammarPoint, VocabEntry } from '../data/types';
 import type { Llm, LlmCall, LlmResult } from './client';
 import { AiError, classifyError } from './errors';
@@ -26,12 +27,18 @@ export interface WordDetails {
 
 const MAX_ATTEMPTS = 2;
 
+/** O SDK lança AnthropicError (não APIError) quando a saída estruturada não pode ser lida: conta como resposta inválida. */
+function isParseFailure(e: unknown): boolean {
+  return e instanceof Anthropic.AnthropicError && !(e instanceof Anthropic.APIError);
+}
+
 async function callValidated<T>(deps: AiDeps, call: LlmCall<T>, validate: (data: T) => string[]): Promise<T | null> {
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
     let res: LlmResult<T>;
     try {
       res = await deps.llm(call);
     } catch (e) {
+      if (isParseFailure(e)) continue;
       throw new AiError(classifyError(e), e instanceof Error ? e.message : String(e));
     }
     await deps.onUsage(call.model, res.inputTokens, res.outputTokens);

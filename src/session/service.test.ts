@@ -15,6 +15,8 @@ import {
   introduceWord,
   isMinimumDoneToday,
   markMinimumDone,
+  resolveMode,
+  sessionDate,
   startGrammar,
   type Ctx,
 } from './service';
@@ -151,5 +153,22 @@ describe('days and streak', () => {
     expect(await getStreak(ctx)).toBe(1);
     await markMinimumDone(ctx);
     expect(await getStreak(ctx)).toBe(2);
+  });
+
+  it('a session started at 23:50 and finished at 00:10 counts for the day it started', async () => {
+    const t = { now: new Date(2026, 9, 7, 23, 50).getTime() };
+    const ctx = ctxAt(t);
+    const startedOn = sessionDate(ctx);
+    t.now = new Date(2026, 9, 8, 0, 10).getTime();
+    await markMinimumDone(ctx, startedOn);
+    expect(await ctx.db.days.get('2026-10-07')).toEqual({ date: '2026-10-07', minimumDone: true });
+    expect(await isMinimumDoneToday(ctx)).toBe(false);
+  });
+
+  it('a "continue" request becomes the minimum session when today is not done yet', async () => {
+    const ctx = ctxAt({ now: T0 });
+    expect(await resolveMode(ctx, 'continue')).toBe('minimum');
+    await markMinimumDone(ctx);
+    expect(await resolveMode(ctx, 'continue')).toBe('continue');
   });
 });

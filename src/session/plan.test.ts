@@ -51,8 +51,12 @@ describe('buildContinuePlan', () => {
     const p = buildContinuePlan({ ...base, dueWordItemIds: ids('w', 50), dueGrammarIds: ['d1'] });
     expect(p.reviews).toHaveLength(40);
     expect(p.newWords).toHaveLength(5);
-    expect(p.grammar).toEqual(['d1']);
+    expect(p.grammar).toEqual(['d1', 'g0', 'g1']);
     expect(p.reading).toBe(true);
+  });
+
+  it('offers new grammar points in "continue" even when none is due', () => {
+    expect(buildContinuePlan(base).grammar).toEqual(['g0', 'g1', 'g2']);
   });
 
   it('offers more triage instead of N2 words while N3 triage is unfinished', () => {

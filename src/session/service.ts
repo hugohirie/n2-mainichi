@@ -236,12 +236,22 @@ export async function discardExercise(ctx: Ctx, exerciseId: number): Promise<voi
   });
 }
 
-export async function markMinimumDone(ctx: Ctx): Promise<void> {
-  await ctx.db.days.put({ date: localDateKey(ctx.now()), minimumDone: true });
+/** Dia ao qual uma sessão pertence: o dia (local) em que ela começou. */
+export function sessionDate(ctx: Ctx): string {
+  return localDateKey(ctx.now());
+}
+
+export async function markMinimumDone(ctx: Ctx, date: string = sessionDate(ctx)): Promise<void> {
+  await ctx.db.days.put({ date, minimumDone: true });
 }
 
 export async function isMinimumDoneToday(ctx: Ctx): Promise<boolean> {
   return (await ctx.db.days.get(localDateKey(ctx.now())))?.minimumDone ?? false;
+}
+
+/** Enquanto a sessão mínima de hoje não foi feita, qualquer sessão conta como a mínima. */
+export async function resolveMode(ctx: Ctx, requested: 'minimum' | 'continue'): Promise<'minimum' | 'continue'> {
+  return (await isMinimumDoneToday(ctx)) ? requested : 'minimum';
 }
 
 export async function getStreak(ctx: Ctx): Promise<number> {

@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import Anthropic from '@anthropic-ai/sdk';
 import type { Llm, LlmCall, LlmResult } from './client';
 import { AiError } from './errors';
 import { generateGrammarSet, generateReading, generateWordDetails, type AiDeps } from './generate';
@@ -56,6 +57,13 @@ describe('generateGrammarSet', () => {
     expect(await generateGrammarSet(deps, point)).toBeNull();
     expect(calls).toHaveLength(2);
     expect(usage).toHaveLength(2);
+  });
+
+  it('treats an SDK structured-output parse failure as invalid output and retries', async () => {
+    const parseFailure = new Anthropic.AnthropicError('Failed to parse structured output');
+    const { deps, calls } = fakeDeps([parseFailure, goodSet]);
+    expect(await generateGrammarSet(deps, point)).toEqual(goodSet);
+    expect(calls).toHaveLength(2);
   });
 
   it('throws a classified AiError when the API fails', async () => {
