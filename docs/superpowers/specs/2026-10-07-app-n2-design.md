@@ -70,7 +70,7 @@ O N2 cobra kanji dentro de palavras, então **não há cards de kanji isolados**
 
 **Ordem de introdução:**
 1. **Triagem N3:** as palavras N3 aparecem em modo rápido "sei / não sei". "Sei" → entra no SRS com estado inicial de item já conhecido (intervalo longo). "Não sei" → vira card novo normal. A triagem roda dentro da sessão diária (ex.: 30 palavras por sessão) até cobrir o N3.
-2. **N2 novo:** em ordem de frequência. Padrão: 10 novas por dia na sessão mínima (ajustável em Configurações).
+2. **N2 novo:** ordenadas pela frequência do kanji mais raro da palavra (palavras com kanji mais comuns primeiro; as listas não trazem frequência de palavra). Começa quando a triagem do N3 termina. Padrão: 10 novas por dia na sessão mínima (ajustável em Configurações).
 
 ### 4.2 Gramática
 
@@ -99,14 +99,13 @@ O N2 cobra kanji dentro de palavras, então **não há cards de kanji isolados**
 
 | Dado | Fonte | Licença |
 |---|---|---|
-| Listas de vocabulário N3/N2 | Listas JLPT comunitárias (Jonathan Waller / tanos.co.uk) | CC-BY |
-| Leituras e glosas em inglês | JMdict (EDRDG) | CC-BY-SA 4.0 |
-| Kanji (leituras, significados) | KANJIDIC2 (EDRDG) | CC-BY-SA 4.0 |
+| Vocabulário N3/N2 com leitura e glosa em inglês | Listas JLPT do tanos.co.uk, via `jamsinclair/open-anki-jlpt-decks` (CSV) | MIT (repositório); dados do tanos.co.uk |
+| Kanji (leituras, significados, frequência) | KANJIDIC2 (EDRDG), via `davidluzgouveia/kanji-data` (JSON) | CC-BY-SA 4.0 |
 | Pontos de gramática | Lista própria (gerada com IA e revisada) | — |
 
-O JLPT não publica listas oficiais desde 2010; as listas comunitárias são uma aproximação aceita. Os créditos ficam na tela de Configurações.
+O JLPT não publica listas oficiais desde 2010; as listas comunitárias são uma aproximação aceita (~2.000 palavras N3 e ~1.900 N2). As glosas em inglês já vêm nas listas, então não é preciso cruzar com o JMdict. Os créditos ficam na tela de Configurações.
 
-Um script de preparação (Node, roda no PC, não no app) baixa as fontes, cruza as listas com JMdict/KANJIDIC2 e gera os JSONs em `data/`. Os JSONs gerados são versionados no repositório.
+Um script de preparação (Node, roda no PC, não no app) baixa as fontes e gera os JSONs em `data/`. Os JSONs gerados são versionados no repositório.
 
 ## 6. Armazenamento local (IndexedDB)
 
@@ -143,7 +142,7 @@ Tabelas principais:
 - `session/`: montagem da sessão (vencidos + novos + limites); sequência de dias (incluindo dia pulado e virada de dia).
 - `ai/`: validação de respostas com exemplos válidos e inválidos (fixtures).
 - `storage/`: exportar → importar → dados iguais.
-- Script de dados: cruzamento das listas com o JMdict em amostra pequena.
+- Script de dados: parsing do CSV, remoção de duplicatas entre N3 e N2 e ordenação pela frequência dos kanji.
 
 **Manuais no iPhone:** instalar na tela inicial; fazer uma sessão completa; usar o "continuar"; exportar e restaurar o backup.
 
