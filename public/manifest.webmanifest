@@ -1,0 +1,13 @@
+{
+  "name": "N2 毎日",
+  "short_name": "N2 毎日",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#b5402f",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
